@@ -1,0 +1,7 @@
+﻿Business idea
+
+People often find themselves looking a neighborhood to go have a dinner and they decide in the last minute. I would like to divide restaurants in Cleveland, Ohio into 3 clusters. This will lead people create 3 bubbles of strategic locations to be around if they wanna be around different restaurants.
+
+Data
+
+An api call will be made to foursquare to retrieve data of restaurants in Cleveland Ohio within certain miles. The location data and resturants names will be collected in a dataframe. Kmean algorithm will be run to divide these restaurants into clusters. 
