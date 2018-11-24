@@ -1,7 +1,9 @@
 ﻿Business idea
 
-People often find themselves looking a neighborhood to go have a dinner and they decide in the last minute. I would like to divide restaurants in Cleveland, Ohio into 3 clusters. This will lead people create 3 bubbles of strategic locations to be around if they wanna be around different restaurants.
+In this project i am suggesting two potential locations to a user that wants to open a plumber business specializes for restaurants I am suggesting two central locations where the location is a close proximity to variaty of restaurants.
+
+I would like to divide restaurants in Cleveland, Ohio into 2 clusters. This will lead people create 2 bubbles of strategic locations to be around if they wanna be around different restaurants. The code requests api calls of all the restaurants within 15 miles of radius of public Square, Cleveland.
 
 Data
 
-An api call will be made to foursquare to retrieve data of restaurants in Cleveland Ohio within certain miles. The location data and resturants names will be collected in a dataframe. Kmean algorithm will be run to divide these restaurants into clusters. 
+An api call will be made to foursquare to retrieve data of restaurants in Cleveland Ohio within certain miles.The lat and long of the location data will be saved in a different data frame then this feature matrix will be used to cluster the restaurants into groups. An unsupervised learning algoritm, Kmeans clustering, will be used for this project. This project returns two addresses to the user where they can find majority of Cleveland`s restaurants in proximity. 
